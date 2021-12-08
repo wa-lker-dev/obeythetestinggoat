@@ -35,6 +35,7 @@ def test_edith_persona(browser: webdriver.Firefox):
     # She visits that URL - her to-do list is still there.
 
     # Satisfied, she goes back to sleep
+    pytest.fail('Finish the test!')
 
 if __name__ == '__main__':  
     pytest.main()
